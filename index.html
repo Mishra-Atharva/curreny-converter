@@ -5,28 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <title>CURRENCIE EXCHANGE</title>
 </head>
 <body>
 
     <div id="container">
 
+        <center>
         <div id="selection">
             <p>From</p>
             <select id="list"></select>
         </div>
         <br>
+        
         <div id="text">
-            <input type="text" placeholder="amount" id="value">
+            <input type="text" placeholder="Enter Amount" id="value">
         </div>
+   
+        <br>
         <div id="selection">
             <p>To</p>
             <select id="list2"></select>
         </div>
         <br>
         <div id="res">
-            <input type="text" placeholder="$" id="value2">
+            <p>Conversion</p>
+            <input type="text" placeholder="$" id="value2" readonly>
         </div>
+        </center>
 
     </div>
 

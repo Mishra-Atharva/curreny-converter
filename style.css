@@ -1,18 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #container{
+    display: flex;
     border: 2px solid black;
     float: center;
     padding: 10px;
     margin: auto;
-    width: 80%;
-    height: auto;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
 }
 
 #selection{
     margin: auto;
-    width: auto;
+    width: 80%;
     height: auto;
     float: center;
 }
 
-#value2{
+#value, #value2 {
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#list, #list2{
+    width: 100px;
+    height: auto;
 }
