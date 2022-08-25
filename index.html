@@ -3,16 +3,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
     <title>CURRENCIE EXCHANGE</title>
 </head>
 <body>
 
-    <div id="selection">
-        <p>Convert</p>
-        <select id="list"></select>
+    <div id="container">
 
-        <button onclick="getCountries()">Start</button>
+        <div id="selection">
+            <p>From</p>
+            <select id="list"></select>
+        </div>
+        <br>
+        <div id="text">
+            <input type="text" placeholder="amount" id="value">
+        </div>
+        <div id="selection">
+            <p>To</p>
+            <select id="list2"></select>
+        </div>
+        <br>
+        <div id="res">
+            <input type="text" placeholder="$" id="value2">
+        </div>
 
     </div>
 
